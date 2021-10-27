@@ -1,4 +1,4 @@
-
+![](https://i.imgur.com/xG74tOh.png)
 
 # Desafio | Front-end - Módulo 2
 
@@ -377,14 +377,33 @@ Informações do retorno da API necessárias para o preenchimento:
 - src da `<img class="modal__img">` === backdrop_path
 - texto do `<p class="modal__description">` === overview
 - texto da `<div class="modal__average">` === vote_average
-
-- para cada genre, você deverá criar um `<span class="modal__genre">`, colocar como texto o valor de genre.name e adicioná-lo na `<div class="modal__genres">`
+- **ISSO NÃO É OBRIGATÓRIO**
+  - para cada genre, você deverá criar um `<span class="modal__genre">`, colocar como texto o valor de genre.name e adicioná-lo na `<div class="modal__genres">`
 
 O modal poderá ser "fechado" por meio de um clique nele próprio ou na `<img class="modal__close">`, ao clicar em qualquer um dos dois, a classe "hidden" deverá ser adicionada a `<div class="modal">`
 
-### Mudança de tema 
+### Mudança de tema **NÃO OBRIGATÓRIO**
 
 Ao clicar na `<img class="btn-theme">`, caso o **tema atual** seja "light" ou "claro", o mesmo deverá ser trocado para o tema "dark" ou "escuro", após isso, você deverá modificar o tema (imagens e cores) do seu website de acordo com o Figma. Essa troca de tema, poderá ser facilitada caso seja feita por meio da troca de variáveis CSS.
 
+## Aulas úteis:
+
+-   [Selecionando elementos mais facilmente](https://plataforma.cubos.academy/curso/90bb4fdd-85c7-4f90-9753-38c264a80382/data/22/09/2021/aula/74133989-3e43-42df-a97c-8a998d9d2981/078a2394-cdce-4f1c-a824-0a2cfff1d956)
+-   [Modificando as propriedades dos elementos](https://plataforma.cubos.academy/curso/90bb4fdd-85c7-4f90-9753-38c264a80382/data/22/09/2021/aula/74133989-3e43-42df-a97c-8a998d9d2981/77f90359-a5f1-40ce-bf30-e29ae11b7eb6)
+-   [Manipulando classes com a DOM](https://plataforma.cubos.academy/curso/90bb4fdd-85c7-4f90-9753-38c264a80382/data/22/09/2021/aula/74133989-3e43-42df-a97c-8a998d9d2981/410a91a8-2cc8-464c-8bf3-a44414b71f48)
+-   [Evento de clique](https://plataforma.cubos.academy/curso/90bb4fdd-85c7-4f90-9753-38c264a80382/data/22/09/2021/aula/74133989-3e43-42df-a97c-8a998d9d2981/bdc5aaa3-24e3-4899-bda8-b582b029ebbc)
+-   [Evento de Tecla e objeto de eventos](https://plataforma.cubos.academy/curso/90bb4fdd-85c7-4f90-9753-38c264a80382/data/24/09/2021/aula/9776a71c-1557-449f-a484-fe6d782078b2/604e4321-3cba-4251-a39f-5c1eb9f0bc9d)
+-   [Target e multiplos eventos](https://plataforma.cubos.academy/curso/90bb4fdd-85c7-4f90-9753-38c264a80382/data/24/09/2021/aula/9776a71c-1557-449f-a484-fe6d782078b2/a716dfb5-4986-474e-915a-dae4b1f3bb3f)
+-   [Resumo position fixed](https://plataforma.cubos.academy/curso/90bb4fdd-85c7-4f90-9753-38c264a80382/data/27/09/2021/aula/385d12f5-cb93-4799-aa2f-08927b0841a6/3cb58d27-fb1f-4f02-bb9d-270e16c0ae49)
+-   [Resumo position fixed](https://plataforma.cubos.academy/curso/90bb4fdd-85c7-4f90-9753-38c264a80382/data/27/09/2021/aula/385d12f5-cb93-4799-aa2f-08927b0841a6/3cb58d27-fb1f-4f02-bb9d-270e16c0ae49)
+-   [Criando um modal](https://plataforma.cubos.academy/curso/90bb4fdd-85c7-4f90-9753-38c264a80382/data/27/09/2021/aula/385d12f5-cb93-4799-aa2f-08927b0841a6/2df37312-8557-4ed5-8c05-32238392d6d1)
+-   [Fetch e assincronismo](https://plataforma.cubos.academy/curso/90bb4fdd-85c7-4f90-9753-38c264a80382/data/06/10/2021/aula/152f4b5a-0e89-444d-a9bc-a81ad4fb4a4e/b4537257-df85-4d43-af8f-2b665ae90412)
+-   [Populando a página com informações externas](https://plataforma.cubos.academy/curso/90bb4fdd-85c7-4f90-9753-38c264a80382/data/13/10/2021/aula/3d693f22-0ee2-4d32-b891-8e430269d23c/9629cca8-3fb1-4fa5-8dda-5f07ded8bfc9)
+-   [Criando e adicionando elementos](https://plataforma.cubos.academy/curso/90bb4fdd-85c7-4f90-9753-38c264a80382/data/13/10/2021/aula/3d693f22-0ee2-4d32-b891-8e430269d23c/88a23b49-bd79-4bd4-adb5-b9d89cbdeb33)
+-   [Variaveis CSS](https://plataforma.cubos.academy/curso/90bb4fdd-85c7-4f90-9753-38c264a80382/data/18/10/2021/aula/00f02b74-0042-491c-9727-19f5fa90b098/7e2f0cf3-6287-4b93-8317-e2606b843a0b)
+-   [Modificando as variaveis CSS pelo DOM](https://plataforma.cubos.academy/curso/90bb4fdd-85c7-4f90-9753-38c264a80382/data/18/10/2021/aula/00f02b74-0042-491c-9727-19f5fa90b098/9fd30a6b-0df7-4984-aa66-6f72adecf91c)
+-   [LocalStorage](https://plataforma.cubos.academy/curso/90bb4fdd-85c7-4f90-9753-38c264a80382/data/18/10/2021/aula/00f02b74-0042-491c-9727-19f5fa90b098/130f5158-6f61-4181-8b9f-b1a63e49094d)
+
+**LEMBRE-SE**: é melhor feito do que perfeito!!!
 
 ###### tags: `front-end` `módulo 2` `HTML` `DOM` `CSS` `desafio`
